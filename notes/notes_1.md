@@ -14,11 +14,12 @@ Physics etc., so this gonna be some challenge. And also: Crash Course is great.
     electron (- charge) > 
     ~ 800 times smaller than proton & neutron(mass)
 
-proton & neutron are inside of Nucleus and they are called nucleons (nucleus
-components). electrons are around nucleus. number of protons defines 
+Proton & neutron are inside of Nucleus and they are called nucleons (nucleus
+components). Electrons are around nucleus. Number of protons defines with 
+which atom we'are dealing.
 
-  Relative Atomic Mass
-  protons + neutrons 
+##Relative Atomic Mass
+protons + neutrons 
   
-  Mass Numbers
-  Nucleus = protons + neutrons
+##Mass Numbers
+Nucleus = protons + neutrons
