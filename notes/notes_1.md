@@ -7,15 +7,15 @@ Physics etc., so this gonna be some challenge. And also: Crash Course is great.
 
 #The Nucleus
 
-    proton[1] (+ charge) > heavy(mass)
+    proton (+ charge) > heavy(mass)
     
-    neutron[2] (~= proton)(neutral charge)
+    neutron (~= proton)(neutral charge)
     
-    electron[3] (- charge) > 
+    electron (- charge) > 
     ~ 800 times smaller than proton & neutron(mass)
 
-Proton & neutron are inside of Nucleus and they are called nucleons (nucleus
-components). Electrons are around nucleus. Number of protons defines with 
+Proton[[1]] & neutron[[2]] are inside of Nucleus and they are called nucleons (nucleus
+components). Electrons[[3]] are around nucleus. Number of protons defines with 
 which atom we'are dealing.
 
 ##Relative Atomic Mass
@@ -25,10 +25,10 @@ protons + neutrons
 Nucleus = protons + neutrons
 
 ##Isotpe 
-[i-so-tope]*noun*
-ISO-SAME TOPE-PLACE
-different neutron number
-giving diffrent mass number
+[i-so-tope] *noun* <br>
+ISO-SAME TOPE-PLACE <br>
+different neutron number <br>
+giving diffrent mass number <br>
 
 [1]: http://en.wikipedia.org/wiki/Proton      "Proton"
 [2]: http://en.wikipedia.org/wiki/Neutron     "Neutron"
