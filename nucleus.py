@@ -46,7 +46,7 @@ class neutron:
   def __init__(self, mass, charge):
     global list_neutron
     self.mass = float(mass)
-    self.charge = float(charge)
+    self.charge = charge
     self.list_neutron = list_neutron
 
     list_neutron.append(mass)
@@ -58,18 +58,3 @@ class nucleon:
   
   def rel_atomic_mass(self):
     pass
-
-def main():
-  # tests
-  a = neutron(neutron_mass_u, neutron_eC_charge)
-  b = proton(proton_mass_u, neutron_eC_charge)
-  c = nucleon()
-  print a
-  print b
-  print c
-  print ""
-  print str(a.mass)
-  print str(b.mass)
-if __name__ == '__main__':
-  main()
-
