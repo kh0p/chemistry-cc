@@ -7,11 +7,11 @@ Physics etc., so this gonna be some challenge. And also: Crash Course is great.
 
 #The Nucleus
 
-    proton (+ charge) > heavy(mass)
+    proton[1] (+ charge) > heavy(mass)
     
-    neutron (~= proton)(neutral charge)
+    neutron[2] (~= proton)(neutral charge)
     
-    electron (- charge) > 
+    electron[3] (- charge) > 
     ~ 800 times smaller than proton & neutron(mass)
 
 Proton & neutron are inside of Nucleus and they are called nucleons (nucleus
@@ -23,3 +23,13 @@ protons + neutrons
   
 ##Mass Numbers
 Nucleus = protons + neutrons
+
+##Isotpe 
+[i-so-tope]*noun*
+ISO-SAME TOPE-PLACE
+different neutron number
+giving diffrent mass number
+
+[1]: http://en.wikipedia.org/wiki/Proton      "Proton"
+[2]: http://en.wikipedia.org/wiki/Neutron     "Neutron"
+[3]: http://en.wikipedia.org/wiki/Electron    "Electron"
