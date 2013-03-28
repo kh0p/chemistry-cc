@@ -24,7 +24,7 @@ class chemical_element:
     self.atomic_weight = atomic_weight
     self.protons_num = protons_num
     self.neutrons_num = neutrons_num
-    self_atomic_mass = atomic_mass
+    self.atomic_mass = atomic_mass
     self.stable_with = stable_with
     self.stand_atomic_weight = stand_atomic_weight
 
