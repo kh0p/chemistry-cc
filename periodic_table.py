@@ -20,7 +20,8 @@ class chemical_element:
     self.neutrons_num = neutrons_num
     self.stable_with = stable_with
 
-    sumproduct(neutrons_num, stable_with)
+    atomic_mass = []
+    sumproduct(atomic_mass, stable_with)
 
   def relative_atomic_mass(self): 
     pass
