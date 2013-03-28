@@ -13,16 +13,16 @@ def main():
   a = neutron(neutron_mass_u, neutron_eC_charge)
   b = proton(proton_mass_u, proton_eC_charge)
   c = nucleon()
-  
-  Au = chemical_element('Gold','Au','transition metal',
-    196.966, 79, [197], [118] ,[1.0], 196.966)
-  print Au.atomic_mass
+
   print a
   print b
   print c
   print ""
   print str(a.charge)
   print str(b.charge)
+  
+  Ag_relative_mass =  chemical_element.relative_atomic_mass(Ag, Ag.atomic_mass, Ag.stable_with)
+  print Ag_relative_mass
 
 if __name__ == '__main__':
   main()
