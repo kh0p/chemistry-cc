@@ -10,7 +10,7 @@ def sumproduct(*lists):
 class chemical_element:
   def __init__(self, name="", symbol="", category="", 
       atomic_weight=0, protons_num=0, neutrons_num=[],
-      stable_with=[]):
+      atomic_mass = [], stable_with=[]):
 
     self.name = name
     self.symbol = symbol
@@ -18,16 +18,14 @@ class chemical_element:
     self.atomic_weight = atomic_weight
     self.protons_num = protons_num
     self.neutrons_num = neutrons_num
+    self_atomic_mass = atomic_mass
     self.stable_with = stable_with
 
-    atomic_mass = []
-    sumproduct(atomic_mass, stable_with)
-
   def relative_atomic_mass(self): 
-    pass
+    sumproduct(atomic_mass, stable_with)
 
 # list of few chemical elements for testing
 Ag = chemical_element('Silver','Ag','transition metal',
-    107.868, 47, [60,62], [0.51839, 0.48161])
+    107.868, 47, [60,62], [107, 109], [0.51839, 0.48161])
 P  = chemical_element('Phosphorus','P','nonmetal',
-    30.973, 15, [16],[1.0])
+    30.973, 15, [16], [31] ,[1.0])
