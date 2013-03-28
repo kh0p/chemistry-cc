@@ -6,12 +6,17 @@
 # (at your option) any later version.
 
 from nucleus import *
+from periodic_table import *
 
 def main():
   # tests
   a = neutron(neutron_mass_u, neutron_eC_charge)
   b = proton(proton_mass_u, proton_eC_charge)
   c = nucleon()
+  
+  Au = chemical_element('Gold','Au','transition metal',
+    196.966, 79, [197], [118] ,[1.0], 196.966)
+  print Au.atomic_mass
   print a
   print b
   print c
