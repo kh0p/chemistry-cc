@@ -31,3 +31,8 @@ Ag = chemical_element('Silver','Ag','transition metal',
     47, [60,62], [107, 109], [0.51839, 0.48161], 107.868)
 P  = chemical_element('Phosphorus','P','nonmetal',
     15, [16], [31] ,[1.0], 30.973)
+Rh = chemical_element('Rhodium','Rh','transition metal',
+    45, [58], [103], [1.0], 102.905)
+Pd = chemical_element('Palladium','Pd','transition metal',
+    46, [56,58,59,60,62], [102,104,104,106,108],
+    [0.0102,0.1114,0.2233,0.2733,0.2646], 106.42)
