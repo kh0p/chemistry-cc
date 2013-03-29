@@ -36,3 +36,8 @@ Rh = chemical_element('Rhodium','Rh','transition metal',
 Pd = chemical_element('Palladium','Pd','transition metal',
     46, [56,58,59,60,62], [102,104,104,106,108],
     [0.0102,0.1114,0.2233,0.2733,0.2646], 106.42)
+Cd = chemical_element('Cadmium','Cd','transition metal',
+    48, [62,63,64],[110,111,112], [0.1249,0.128,0.2413], 112.411)
+In = chemical_element('Indium','In','post-transition metal',
+    49, [64], [113], [0.043], 114.818)
+
