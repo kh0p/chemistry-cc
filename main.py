@@ -24,8 +24,8 @@ def main():
   density_count = density(get_info_test.mass, get_info_test.Volume)
 
   print density_count
-  Ag_relative_mass =  chemical_element.relative_atomic_mass(Ag, Ag.atomic_mass, Ag.stable_with)
-  print Ag_relative_mass
+
+  Ag_relative_mass = relative_atomic_mass(Ag.atomic_mass, Ag.stable_with)
 
 if __name__ == '__main__':
   main()

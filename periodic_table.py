@@ -22,8 +22,9 @@ class chemical_element:
     self.stable_with = stable_with
     self.stand_atomic_weight = stand_atomic_weight
 
-  def relative_atomic_mass(self, atomic_mass, stable_with):
-    sumproduct(atomic_mass, stable_with)
+def relative_atomic_mass(atomic_mass, stable_with):
+  sumproduct_rel_at_mass = sumproduct(atomic_mass, stable_with)
+  print sumproduct_rel_at_mass
 
 # list of few chemical elements for testing
 Ag = chemical_element('Silver','Ag','transition metal',
