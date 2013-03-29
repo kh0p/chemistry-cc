@@ -33,6 +33,24 @@ electron_mass_u1 = 5.485799 * pow(10,-4) #u
 electron_e_charge = "-1" # e = elementary charge
 electron_eC_charge = -1.602176 * pow(10,-19)
 
+class charge:
+  def __init__(self, chrg_type="", chrg_number=0):
+    self.chrg_type = chrg_type
+    self.chrg_number = chrg_number
+    
+    if chrg_type == "+":
+      chrg_type = positive_charge
+    if chrg_type == "-":
+      chrg_type = negative_charge
+    
+    if chrg_num <= 1:
+      chrg_type = charged
+
+    if chrg_number == 0:
+      chrg_type = non_charge
+    if chrg_type == "0":
+      chrg_type = non_charge
+
 class proton:
   def __init__(self, mass, charge):
     self.mass = float(mass)
@@ -53,8 +71,10 @@ class neutron:
     list_neutron.append(charge)
 
 class nucleon:
-  def __init__(self):
-    int(list_neutron[0]) + int(list_proton[0]) == nucleon_mass_u
+  def __init__(self, proton, neutron):
+    self.proton = proton
+    self.neutron = neutron
+
   
   def rel_atomic_mass(self):
     pass
