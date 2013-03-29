@@ -48,10 +48,8 @@ class charge:
 
     if chrg_num >= 1:
       chrg_type = charged
-    if chrg_number == 0:
-      chrg_type = non_charge
-    
-    if chrg_type == "0":
+
+    if chrg_type == "0" and chrg_number == 0:
       chrg_type = non_charge
 
 class proton:

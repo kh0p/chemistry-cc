@@ -1,0 +1,12 @@
+# rho = m/V
+# density = mass/Volume
+# kg/m^3 (SI) = kg/m^3
+
+class get_info:
+  def __init__(self, mass=0.1, Volume=0.1):
+    self.mass = mass
+    self.Volume = Volume
+
+  def density(self, mass, Volume):
+    global density
+    mass / Volume == density
