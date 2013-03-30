@@ -2,6 +2,9 @@
 # p orbitals
 # d,f orbitals
 # on plane - 2D model
+# for p - need to build 3D model
+#   -- p(x), p(y), p(z)
+#Bohr model - E = -2.178 * pow(10,-18) J(Z**2 / n**2)
 from random import *
 x = 0.0
 y = 0.0
