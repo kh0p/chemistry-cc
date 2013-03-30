@@ -8,9 +8,15 @@ class unit_type:
     self.name = name
     self.symbol = symbol
     self.val = val
-  def unit_pow(self, power):
+  def unit_pow(self, power=1):
     #km^2, km^3 etc.
-    pass
+    self.power = power
+    if power == 2:
+      self.val * pow(10,2)
+    elif power == 3:
+      self.val * pow(10,3)
+    else:
+      pass
 km = unit_type('Kilometre', 'km', 1.0)
 m = unit_type('metre', 'm', 1.0)
 km_to_m = m.val * pow(10,3)
