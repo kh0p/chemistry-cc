@@ -8,7 +8,7 @@
 from nucleus import *
 from periodic_table import *
 from density import *
-
+from units import *
 def main():
   # tests
   a = neutron(neutron_mass_u, neutron_eC_charge)
@@ -26,6 +26,8 @@ def main():
   print density_count
 
   Ag_relative_mass = relative_atomic_mass(Ag.atomic_mass, Ag.stable_with)
+
+  print str(km.val) + "km = " + str(km_to_m) + "m"
 
 if __name__ == '__main__':
   main()
