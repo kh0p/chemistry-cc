@@ -20,3 +20,13 @@ def rand_pos_p():
 class Orbital:
   def __init__(self):
     pass
+
+#i will def s,p,d,f,g shapes of orbital
+#got to do: 
+
+#aufbau principle
+
+#Hund's rules
+
+#I will work on random varibles 
+#- with 0,9
