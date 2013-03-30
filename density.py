@@ -2,6 +2,8 @@
 # density = mass/Volume
 # kg/m^3 (SI) = kg/m^3
 
+# electron density maybe?
+# can be useful for orbitals
 
 class get_info:
   def __init__(self, mass=0.1, Volume=0.1):
