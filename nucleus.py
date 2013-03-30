@@ -48,7 +48,7 @@ class charge:
     if chrg_type == "-":
       chrg_type_sym = negative_charge
 
-    if chrg_num >= 1:
+    if chrg_number >= 1:
       chrg_type_num = charged
 
     if chrg_type == "0" and chrg_number == 0:
@@ -79,10 +79,11 @@ class neutron:
     list_neutron.append(charge)
 
 class nucleon:
-  def __init__(self, proton, neutron):
+  def __init__(self, proton_num, neutron_num):
     self.proton = proton
     self.neutron = neutron
-
+    global electron_num
+    electron_num == proton_num 
   
   def rel_atomic_mass(self):
     pass
