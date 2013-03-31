@@ -88,6 +88,24 @@ class nucleon:
   def rel_atomic_mass(self):
     pass
 
+class Nucleus:
+  def __init__(self, nucleon_protons, nucleon_neutrons):
+    self.nucleon_protons = nucleon_protons
+    self.nucleon_neutrons = nucleon_neutrons
+  def isotope(self):
+    #same proton num, different neutron nums
+    #same atomic number, different atomic mass
+    pass
+  def isotone(self):
+    #same neutron number
+    pass
+  def isobar(self):
+    #same nucleon number in nucleus
+    #different atomic number
+    pass
+  def nuclear_isomer(self):
+    #different Quantum state
+    pass
 proton_charge = charge("+",1)
 electron_charge = charge("-", 1)
 neutron_charge = charge("0",0)
