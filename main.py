@@ -4,12 +4,12 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
 # (at your option) any later version.
-
 from nucleus import *
 from periodic_table import *
 from density import *
 from units import *
 from atom import *
+from stechiometry import *
 def main():
   # tests
   a = neutron(neutron_mass_u, neutron_eC_charge)
