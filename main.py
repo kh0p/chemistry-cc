@@ -9,6 +9,7 @@ from nucleus import *
 from periodic_table import *
 from density import *
 from units import *
+from atom import *
 def main():
   # tests
   a = neutron(neutron_mass_u, neutron_eC_charge)
@@ -29,5 +30,10 @@ def main():
 
   print str(km.val) + "km = " + str(km_to_m) + "m"
 
+  nucleus_a = Nucleus(Ag.protons_num,Ag.neutrons_num[0])
+  print str(nucleus_a.nucleon_protons) + " " + str(nucleus_a.nucleon_neutrons)
+  
+  atom_a = atom([nucleus_a.nucleon_protons, nucleus_a.nucleon_neutrons], nucleus_a.nucleon_protons)
+  print str(atom_a.electrons) + " " + str(atom_a.nucleus[1])
 if __name__ == '__main__':
   main()
