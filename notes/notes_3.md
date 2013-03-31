@@ -7,10 +7,9 @@ todo:
 
 **********************************************************************
 
-
+##If the particles have the same energy
 ![pic1](http://www.chemguide.co.uk/atoms/properties/efield1.gif "Proton, Neutron, Electron + charged plates/same energy")
 
-##If the particles have the same energy
 If beams of the three sorts of particles, all with the same energy, are
 passed between two electrically charged plates:
 
@@ -21,9 +20,9 @@ passed between two electrically charged plates:
   in the opposite direction.
 - Neutrons continue in a straight line.
 
+##If the particles have the same speeds
 ![pic2](http://www.chemguide.co.uk/atoms/properties/efield2.gif "Proton, Neutron, Electron + charged plates/same speed")
 
-##If the particles have the same speeds
 If beams of the three sorts of particles, all with the same speed, are 
 passed between two electrically charged plates:
 
