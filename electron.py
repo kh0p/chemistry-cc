@@ -8,3 +8,9 @@ class electron:
 
     list_electron.append(mass)
     list_electron.append(charge)
+def electron_density(self, orbital_lvl,
+    density_matrix):
+  self.orbital_lvl = orbital_lvl
+  self.density_matrix = density_matrix
+    
+
