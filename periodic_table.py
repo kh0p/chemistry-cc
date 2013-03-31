@@ -27,6 +27,8 @@ def relative_atomic_mass(atomic_mass, stable_with):
   print sumproduct_rel_at_mass
 
 # list of few chemical elements for testing
+H  = chemical_element('Hydrogen', 'H', 'nonmetal',
+    1, [0,1], [1, 2], [0.99985,0.00015], 1.008)
 Ag = chemical_element('Silver','Ag','transition metal',
     47, [60,62], [107, 109], [0.51839, 0.48161], 107.868)
 P  = chemical_element('Phosphorus','P','nonmetal',
