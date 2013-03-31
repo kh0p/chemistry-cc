@@ -12,6 +12,7 @@ from atom import *
 from stechiometry import *
 def main():
   # tests
+  print ""
   a = neutron(neutron_mass_u, neutron_eC_charge)
   b = proton(proton_mass_u, proton_eC_charge)
   print a
@@ -28,5 +29,6 @@ def main():
   print str(nucleus_a.nucleon_protons) + " " + str(nucleus_a.nucleon_neutrons)
   atom_a = atom([nucleus_a.nucleon_protons, nucleus_a.nucleon_neutrons], nucleus_a.nucleon_protons)
   print str(atom_a.electrons) + " " + str(atom_a.nucleus[1])
+  print ""
 if __name__ == '__main__':
   main()
