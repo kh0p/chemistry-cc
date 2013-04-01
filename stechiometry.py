@@ -12,4 +12,6 @@ def to_Moles(name='',relative_atomic_mass=0.0):
   #took me a while to realize @__@
 
   print str(name) + " " + str(relative_atomic_mass)
-  
+mole = 0
+g/mole*pow(1,-1) == u
+# [g * mole * pow(1,-1)]
