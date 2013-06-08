@@ -19,6 +19,11 @@ Using as a source: [Crash Course: Chemistry], books from school and wikipedia fo
 now. I've got Biochemistry and Genetics stuff, but for now I will build up some 
 basics from first ones.
 
+ Component         | Progress
+:------------------|:--------------------------------------------------------------
+ Basic definitions | Straightforward definitions are done, but they need to be develop.
+ Display           | There is none.
+
 [Chemistry]: http://en.wikipedia.org/wiki/Chemistry         "Chemistry"
 [Crash Course]: https://www.youtube.com/user/crashcourse    "Crash Course on YouTube"
 [Crash Course: Chemistry]: https://www.youtube.com/watch?v=FSyAehMdpyI&list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr&index=1  "Crash Course: Chemistry"
