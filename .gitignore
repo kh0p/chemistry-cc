@@ -1,4 +1,4 @@
-*.py.swp
+*.swp
 __pycache__/
 *.py[cod]
 *.so
